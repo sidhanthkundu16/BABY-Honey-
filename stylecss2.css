@@ -1,0 +1,449 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    width: auto;
+    height: auto;
+    
+    
+}
+.main{
+    width: 1350px;
+    margin: auto;
+    height: 200px;
+    background-color: #d3d3d3;
+    box-shadow: 3px 2px 5px grey, 5px 4px 15px black;
+
+    
+
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #05386b;
+    padding: 5px 20px;
+    transition: 1s ease;
+    border: 0px solid;
+    margin-top: 14px;
+    
+}
+ul li a:hover{
+    background-color: #05386b;
+    color: #d3d3d3;
+}
+ul li.active a{
+    background-color: #05386b;
+    color: #d3d3d3;
+}
+
+.logo img{
+    float: left;
+    height: 180px;
+    width: 180px;
+}
+
+
+.search{
+    float: right;
+    margin-top: 60px;
+    margin-right: 300px;
+    background-color: grey;
+    border-radius: 50px;
+    box-shadow: 3px 2px 5px grey, 5px 4px 15px black;
+
+    
+}
+.logosearch img{
+    float: right;
+    margin-top: -28px;
+    margin-right: 690px;
+    height: 30px;
+    width: 40px;
+}
+.best img{
+    float: left;
+    margin-top: 30px;
+    height: 250px;
+    width: 1350px;
+}
+
+.product1 img{
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border: 0px ridge;
+    border-color: black;
+}
+
+.product1 h1 a{
+    padding-left: 30px;
+    margin-top: 50px;
+    margin-right: 300px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.product1 a:hover{
+    color: red;
+    
+}
+.product1 h3{
+    font-size: 30px;
+    padding-left: 30px;
+    margin-left: 410px;
+    padding-top: 50px;
+    color: maroon;
+    
+    
+
+}
+.product1 h4{
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 30px;
+    font-style: italic;
+    color: grey;
+}
+
+.product1 ul li{
+    text-decoration: none;
+    color: black;
+    padding: 5px 50px;
+    transition: 1s ease;
+    border: 2px solid;
+    margin-top: 0px;
+    margin-right: 680px;
+    border-radius: 8px;
+    size: 60px;
+    background-color: rgb(248, 224, 10);
+    border-color: rgb(255, 208, 0);
+}
+.product1 ul li a{
+    border: 0px;
+
+}
+.product1 ul li a:hover{
+    background-color: rgb(248, 224, 10);
+    
+
+}
+
+.product2 img{
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin-left: -250px;
+    margin-top: 100px;
+    border: 0px ridge;
+    border-color: black;
+    
+}
+
+.product2 h1 a{
+    padding-left: 30px;
+    margin-top: 70px;
+    margin-right: 300px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.product2 a:hover{
+    color: red;
+    
+}
+.product2 h3{
+    font-size: 30px;
+    padding-left: 30px;
+    margin-left: 410px;
+    padding-top: 50px;
+    color: maroon;
+    
+    
+
+}
+.product2 h4{
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 30px;
+    font-style: italic;
+    color: grey;
+    margin-left: 400px;
+}
+
+.product2 ul li{
+    text-decoration: none;
+    color: black;
+    padding: 5px 50px;
+    transition: 1s ease;
+    border: 2px solid;
+    margin-top: 0px;
+    margin-right: 680px;
+    border-radius: 8px;
+    size: 60px;
+    background-color: rgb(248, 224, 10);
+    border-color: rgb(255, 208, 0);
+}
+.product2 ul li a{
+    border: 0px;
+    ;
+}
+.product2 ul li a:hover{
+    background-color: rgb(248, 224, 10);
+}
+
+
+.product3 img{
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 124px;
+    border: 0px ridge;
+    border-color: black;
+}
+
+.product3 h1 a{
+    padding-left: 30px;
+    margin-top: 77px;
+    margin-right: 300px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.product3 a:hover{
+    color: red;
+    
+}
+.product3 h3{
+    font-size: 30px;
+    padding-left: 30px;
+    margin-left: 410px;
+    padding-top: 50px;
+    color: maroon;
+    
+    
+
+}
+.product3 h4{
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 30px;
+    font-style: italic;
+    color: grey;
+}
+
+.product3 ul li{
+    text-decoration: none;
+    color: black;
+    padding: 5px 50px;
+    transition: 1s ease;
+    border: 2px solid;
+    margin-top: 0px;
+    margin-right: 680px;
+    border-radius: 8px;
+    size: 60px;
+    background-color: rgb(248, 224, 10);
+    border-color: rgb(255, 208, 0);
+}
+.product3 ul li a{
+    border: 0px;
+
+}
+.product3 ul li a:hover{
+    background-color: rgb(248, 224, 10);
+}
+
+.product4 img{
+    float: left;
+    height: 210px;
+    width: 250px;
+    margin-left: -250px;
+    margin-top: 100px;
+    border: 0px ridge;
+    border-color: black;
+    
+}
+
+.product4 h1 a{
+    padding-left: 30px;
+    margin-top: 70px;
+    margin-right: 300px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.product4 a:hover{
+    color: red;
+    
+    
+}
+.product4 h3{
+    font-size: 30px;
+    padding-left: 30px;
+    margin-left: 410px;
+    padding-top: 50px;
+    color: maroon;
+    
+    
+
+}
+.product4 h4{
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 30px;
+    font-style: italic;
+    color: grey;
+    margin-left: 400px;
+}
+
+.product4 ul li{
+    text-decoration: none;
+    color: black;
+    padding: 5px 50px;
+    transition: 1s ease;
+    border: 2px solid;
+    margin-top: 0px;
+    margin-right: 680px;
+    border-radius: 8px;
+    size: 60px;
+    background-color: rgb(248, 224, 10);
+    border-color: rgb(255, 208, 0);
+}
+.product4 ul li a{
+    border: 0px;
+    ;
+}
+.product4 ul li a:hover{
+    background-color: rgb(248, 224, 10);
+}
+
+
+.product5 img{
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 100px;
+    border: 0px ridge;
+    border-color: black;
+    
+}
+
+.product5 h1 a{
+    padding-left: 30px;
+    margin-top: 70px;
+    margin-right: 300px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.product5 a:hover{
+    color: red;
+    
+}
+.product5 h3{
+    font-size: 30px;
+    padding-left: 30px;
+    margin-left: 410px;
+    padding-top: 50px;
+    color: maroon;
+    
+    
+
+}
+.product5 h4{
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 35px;
+    font-style: italic;
+    color: grey;
+    margin-left: 0px;
+}
+
+.product5 ul li{
+    text-decoration: none;
+    color: black;
+    padding: 5px 50px;
+    transition: 1s ease;
+    border: 2px solid;
+    margin-top: 0px;
+    margin-right: 680px;
+    border-radius: 8px;
+    size: 60px;
+    background-color: rgb(248, 224, 10);
+    border-color: rgb(255, 208, 0);
+}
+.product5 ul li a{
+    border: 0px;
+    ;
+}
+.product5 ul li a:hover{
+    background-color: rgb(248, 224, 10);
+}
+
+
+
+
+
+
+
+.social{
+    background-color: black;
+    height: 300px;
+    width: 1350px;
+    margin-top: 100px;
+
+}
+.social h5{
+    color: white;
+    float: right;
+    font-style: italic;
+    padding-right: 620px;
+    padding-top: 200px;
+}
+.social ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-right: 535px;
+    padding-bottom: 0px;
+}
+.social ul li{
+    display: inline-block;
+}
+.social ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 5px;
+    border: 1px solid;
+    margin-top: 3px;
+}
+.social ul li a img{
+    height: 50px;
+    width: 50px;
+    
+}
+.social ul li a:hover{
+    background-color: black;
+}
+
